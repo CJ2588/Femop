@@ -230,7 +230,7 @@
     }
 
     .about .about-title{
-        margin-top: 20px;
+        margin-top: 90px;
     }
 
     .about_writeup p{
@@ -346,7 +346,7 @@
     overflow: hidden;
     justify-content: center;
     width: 400px;
-    height: 700px;
+    height: 750px;
     box-shadow: 0 5px 5px rgba(1, 1, 1, 30%);;
     margin-left: 50px;
     margin-top: 30px;
@@ -356,6 +356,15 @@
 @media only screen and (max-width: 600px) {
     .product .card-body{
         margin-left: -50px;
+    }
+
+    .product .card{
+        width: 350px;
+        height: 720px;
+    }
+
+    .product .dropdown-list{
+        margin-left: -25px;
     }
 }
 .productimg{
@@ -380,7 +389,7 @@
     margin-top: 15px;
     margin-left: 50%;
     transform: translateX(-50%);
-    width: 300px;
+    width: 320px;
 }
 
 
